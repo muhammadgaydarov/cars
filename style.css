@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: 600px;
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #28a745;
+}
+
+.add-btn {
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    width: 80px;
+}
+
+.add-btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.add-btn:active {
+    transform: scale(0.9);
+}
+
+.btn-clear {
+    display: none;
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #c81a1a;
+    color: #fff;
+    width: 80px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+
+.btn-clear:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-clear:active {
+    transform: scale(0.9);
+}
+
+.edit-btn {
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #254ac6;
+    color: #fff;
+    width: 80px;
+}
+
+.edit-btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.edit-btn:active {
+    transform: scale(0.9);
+}
+
+.save-btn {
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #254ac6;
+    color: #fff;
+    width: 80px;
+}
+
+.save-btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.save-btn:active {
+    transform: scale(0.9);
+}
+
+
+.add-new-btn {
+    border: 1px solid #c73636;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #c73636;
+    color: #ffffff;
+    width: 200px;
+    position: relative;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.add-new-btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.add-new-btn:active {
+    transform: scale(0.9);
+}
+
+.save-new-btn {
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #254ac6;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.save-new-btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.save-new-btn:active {
+    transform: scale(0.9);
+}
